@@ -54,7 +54,24 @@ const routes = [
                         ]
                     }
                 ]
-            }
+            },
+            {
+                path: "ems",
+                component: () => import("./views/usaint/ems/"),
+                children: [
+                    {
+                        path: "course",
+                        component: () => import("./views/usaint/ems/course/"),
+                        children: [
+                            {
+                                path: "timetable",
+                                component: () => import("./views/usaint/ems/course/timetable")
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
         ]
     }
 ]

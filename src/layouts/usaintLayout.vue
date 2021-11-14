@@ -116,7 +116,7 @@ export default {
         {
           idx: 2,
           name: "학사관리",
-          link: "/home",
+          link: "/ems",
           submenu_list: [
             {
               idx: 0,
@@ -127,9 +127,9 @@ export default {
             {
               idx: 1,
               name: "수강신청/교과과정",
-              link: "",
+              link: "/course",
               side_menu: [
-                { idx: 0, name: "강의시간표", link: "" },
+                { idx: 0, name: "강의시간표", link: "/timetable" },
                 { idx: 1, name: "개인수업시간표조회", link: "" },
                 { idx: 2, name: "계절학기 사전수요조사", link: "" },
                 { idx: 3, name: "계절학기 환불신청", link: "" },

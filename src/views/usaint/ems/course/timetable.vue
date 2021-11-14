@@ -1,7 +1,7 @@
 <template>
   
   <div>
-   
+    
     <div class="semester">
       <p>학년도:</p>
 
@@ -22,7 +22,7 @@
       </div>
       
       <div class="filter">
-        <a><img src="./src/assets/images/timetable/yellow.png"></a>
+        
       </div>
     </div>
 

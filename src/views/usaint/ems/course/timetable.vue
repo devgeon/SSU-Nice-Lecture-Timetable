@@ -27,8 +27,31 @@
         <button type="button"><img src="@/assets/images/timetable/red.png"/></button>
         <button type="button" disabled><img src="@/assets/images/timetable/blue.png"/></button>
       </div>
-    </div>
 
+      <div class="table">
+        <div class="leftNav">
+          좌측네브바가 들어갈 위치입니다. 사이즈 범위를 어떻게 정할 수 있을까요? 박스모델을 쓰면 되겠죠? 파이팅
+        </div>
+
+        <div class="info">
+          <p id="info1">과목번호</p>
+          <p id="info2">주전공</p>
+          <p id="info3">다전공</p>
+          <p id="info4">과목명</p>
+          <p id="info5">교수명</p>
+          <p id="info6">강의시간</p>
+          <p id="info7">강의실</p>
+          <p id="info8">학점(설계)</p>
+          <p id="info9">여석/수강인원</p>
+          <p id="info10">공학인증</p>
+          <p id="info11">교과영역</p>
+          <p id="info12">비고</p>
+        </div>
+      </div>
+
+
+
+    </div>
 
   </div>
 

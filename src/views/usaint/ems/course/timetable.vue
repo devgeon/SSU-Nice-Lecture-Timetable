@@ -31,7 +31,17 @@
 
     <div class="table">
       <div class="leftNav">
-        좌측네브바가 들어갈 위치입니다. 사이즈 범위를 어떻게 정할 수 있을까요? 박스모델을 쓰면 되겠죠? 파이팅
+        좌측네브바가 들어갈 위치입니다.
+        <div>
+          <b-dropdown id="dropdown-1" text="Dropdown Button" class="m-md-2">
+            <b-dropdown-item>First Action</b-dropdown-item>
+            <b-dropdown-item>Second Action</b-dropdown-item>
+            <b-dropdown-item>Third Action</b-dropdown-item>
+            <b-dropdown-divider></b-dropdown-divider>
+            <b-dropdown-item active>Active action</b-dropdown-item>
+            <b-dropdown-item disabled>Disabled action</b-dropdown-item>
+          </b-dropdown>
+        </div>
       </div>
 
       <div class="info">

@@ -8,24 +8,50 @@
 .filter{margin-left: 3em; margin-top: 1em;}
 
 .table{margin-top: 1%;}
-.leftNav{width: 14%; height: 680px; float: left; margin-left: 2%; background-color: #e4e3e3; }
+.leftNav{width: 14%; height: 680px; float: left; margin-left: 2%; background-color: #e4e3e3; border-style: none solid none none; border-width: 1px; border-color: #7e7e7e;}
 
-.info{margin-left: 16%; height: 30px; width: 1390px; background-color:#e4e3e3; }
-#info1,#info2,#info3,#info4,#info5,#info6,#info7,#info8,#info9,#info10,#info11,#info12{float: left;}
-#info2{margin-left: 45px;}
-#info3{margin-left: 50px;}
-#info4{margin-left: 60px;}
-#info5{margin-left: 120px;}
-#info6{margin-left: 20px;}
-#info7{margin-left: 85px;}
-#info8{margin-left: 65px;}
-#info9{margin-left: 35px;}
-#info10{margin-left: 20px;}
-#info11{margin-left: 20px;}
-#info12{margin-left: 35px;}
-
+.info{margin-left: 16%; height: 30px; width: 1390px; background-color:#e4e3e3; position:relative; border-style: none none solid none; border-width: 1px; border-color: #7e7e7e; }
+#info1,#info2,#info3,#info4,#info5,#info6,#info7,#info8,#info9,#info10,#info11,#info12{float: left; position:absolute; bottom:7px;}
+#info1{left:3px;}
+#info2{left: 100px;}
+#info3{left: 200px;}
+#info4{left: 300px;}
+#info5{left: 500px;}
+#info6{left: 610px;}
+#info7{left: 750px;}
+#info8{left: 900px;}
+#info9{left: 1000px;}
+#info10{left: 1110px;}
+#info11{left: 1200px;}
+#info12{left: 1300px;}
 //leftNav
 #dropdown-1{float: left;}
+//data
+
+#greyBox{position: relative;}
+#whiteBox{position:relative}
+
+#number{position:absolute; left: 3px; bottom: 33px;}
+#course_main{position:absolute; left: 100px; bottom: 30px;}
+#iconMain{width: 20px; height: 20px;}
+
+
+
+#course_sub{position:absolute; left:200px; bottom: 33px;}
+#name{position:absolute; left:300px; bottom: 33px;}
+#professor{position:absolute; left:500px; bottom: 33px;}
+#time1{position:absolute; left: 610px; top:15px;}
+#loc1{position:absolute; left: 750px; top:15px;}
+#greyLine{position:absolute; left:610px; top:40px; height: 1px; width: 270px;}
+#time2{position:absolute; left: 610px; bottom:15px;}
+#loc2{position:absolute; left: 750px; bottom:15px;}
+#credit{position:absolute; left: 920px; bottom: 33px;}
+#seats{position:absolute; left: 1030px; bottom: 33px;}
+#certification{position:absolute; left: 1110px; bottom: 33px;}
+#subject_area{position:absolute; left: 1200px; bottom: 33px;}
+#etc{position:absolute; left:1300px; bottom: 33px;}
+
+
 
 
 ///////////////////////////////////////////////////////

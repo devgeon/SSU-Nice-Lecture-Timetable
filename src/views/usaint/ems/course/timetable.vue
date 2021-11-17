@@ -60,8 +60,53 @@
       </div>
       <!-- overflow: auto -->
       <div style="height: 650px; overflow: auto; width:1390px"> 
-        <div style="height: 80px; background: #e4e3e3">data1</div>
-        <div style="height: 80px; background: #ffffff">data2</div>
+        <div id="greyBox" style="height: 80px; background: #e4e3e3">
+          
+          <p id="number">{{1234567890}}</p>
+          <p id="course_main">{아이콘}</p>
+          <p id="course_sub">{아이콘}</p>
+          <p id="name">{과목명}</p>
+          <p id="professor">{교수명}</p>
+          <p id="time1">{강의시간}</p>
+          <p id="loc1">{강의실}</p>
+          <img id="greyLine" src="@/assets/images/timetable/greyLine.png">
+          <p id="time2">{강의시간}</p>
+          <p id="loc2">{강의실}</p>
+          <p id="credit">{학점}</p>
+          <p id="seats">{여석}</p>
+          <p id="certification">{공학인증}</p>
+          <p id="subject_area">{교과영역}</p>
+          <p id="etc">{비고}</p>
+              
+          
+        </div>
+
+        <div id="whiteBox" style="height: 80px; background: #ffffff">
+
+          <p id="number">2150054502</p>
+          <p id="course_main">
+            <span class="hoverImg" data-hover="{전기-AI융합}">
+              <img id="iconMain" src="@/assets/images/timetable/01.png"> <!--01 means 전공(0)기초(1) -->
+            </span>
+          </p>
+          <p id="course_sub"></p>
+          <p id="name">오픈소스기초설계(나)</p>
+          <p id="professor">김성흠</p>
+          <p id="time1">목 13:30-14:45</p>
+          <p id="loc1">문화관 03407</p>
+          <img id="greyLine" src="@/assets/images/timetable/greyLine.png">
+          <p id="time2"></p>
+          <p id="loc2"></p>
+          <p id="credit">3</p>
+          <p id="seats">0/47</p>
+          <p id="certification"></p>
+          <p id="subject_area"></p>
+          <p id="etc"></p>
+
+        </div>
+
+
+
         <div style="height: 80px; background: #e4e3e3">data3</div>
         <div style="height: 80px; background: #ffffff">data4</div>
         <div style="height: 80px; background: #e4e3e3">data5</div>
@@ -82,5 +127,38 @@
   </div>
 
 </template>
+<style scoped>
+p{float: left;}
+
+.hoveImg {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hoverImg:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hoverImg:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+</style>
 
 

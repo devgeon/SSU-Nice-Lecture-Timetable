@@ -1,8 +1,8 @@
 <template>
   <div id="no_content">
     This Page will not be embodied!<br /><br /><br />
-    Please Go to 시설사용 > 장소사용신청 and enjoy your<br /><br />
-    사물함 사용신청 / 강의실 사용신청 / 운동장 사용신청!
+    Please Go to 학사관리 > 수강신청/교과과정 and enjoy your<br /><br />
+    강의시간표!
   </div>
 </template>
 

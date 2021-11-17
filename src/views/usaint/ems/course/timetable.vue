@@ -86,19 +86,19 @@
           <p id="number">2150054502</p>
           <p id="course_main">
             <span class="hoverImg" data-hover="{전기-AI융합}">
-              <img id="iconMain" src="@/assets/images/timetable/01.png"> <!--01 means 전공(0)기초(1) -->
+              <img id="iconMain" :src='"/assets/images/timetable/"+main1+main2+".png"'> <!--01 means 전공(0)기초(1) -->
             </span>
           </p>
           <p id="course_sub"></p>
-          <p id="name">오픈소스기초설계(나)</p>
-          <p id="professor">김성흠</p>
-          <p id="time1">목 13:30-14:45</p>
-          <p id="loc1">문화관 03407</p>
+          <p id="name">{{name+bunban}}</p>
+          <p id="professor">{{professor}}</p>
+          <p id="time1">{{time1}}</p>
+          <p id="loc1">{{loc1}}</p>
           <img id="greyLine" src="@/assets/images/timetable/greyLine.png">
-          <p id="time2"></p>
-          <p id="loc2"></p>
-          <p id="credit">3</p>
-          <p id="seats">0/47</p>
+          <p id="time2">{{time2}}</p>
+          <p id="loc2">{{loc2}}</p>
+          <p id="credit">{{credit}}</p>
+          <p id="seats">{{seats1+"/"+seats2}}</p>
           <p id="certification"></p>
           <p id="subject_area"></p>
           <p id="etc"></p>
@@ -127,6 +127,30 @@
   </div>
 
 </template>
+<script>
+  export default{
+    data(){
+      return{
+        name:"오픈소스기초설계",
+        bunban:"(나)",
+        professor:"김성흠",
+        time1:"목 13:30-14:45",
+        loc1:"문화관 03407",
+        time2:"",
+        loc2:"",
+        credit:3,
+        seats1:0,
+        seats2:47,
+        certification:"",
+        subject_area:"",
+        etc:"",
+        main1:"0",
+        main2:"1",
+      }
+    }
+    
+  }
+</script>
 <style scoped>
 p{float: left;}
 

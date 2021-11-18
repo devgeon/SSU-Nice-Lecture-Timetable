@@ -67,17 +67,16 @@
           <p id="course_sub">{아이콘}</p>
           <p id="name">{과목명}</p>
           <p id="professor">{교수명}</p>
-          <p id="time1">{강의시간}</p>
-          <p id="loc1">{강의실}</p>
+          <p id="time1">{강의시간1}</p>
+          <p id="loc1">{강의실1}</p>
           <img id="greyLine" src="@/assets/images/timetable/greyLine.png">
-          <p id="time2">{강의시간}</p>
-          <p id="loc2">{강의실}</p>
+          <p id="time2">{강의시간2}</p>
+          <p id="loc2">{강의실2}</p>
           <p id="credit">{학점}</p>
           <p id="seats">{여석}</p>
           <p id="certification">{공학인증}</p>
           <p id="subject_area">{교과영역}</p>
           <p id="etc">{비고}</p>
-              
           
         </div>
 

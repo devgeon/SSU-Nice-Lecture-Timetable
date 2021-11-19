@@ -65,7 +65,7 @@ const routes = [
                         children: [
                             {
                                 path: "timetable",
-                                component: () => import("./views/usaint/ems/course/Timetable")
+                                component: () => import("./views/usaint/ems/course/timetable")
                             }
                             
                         ]

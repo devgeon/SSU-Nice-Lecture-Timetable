@@ -72,7 +72,7 @@
       </div>
     </div>
 
-    <div class="info" style="margin-left:15%;">
+    <div class="info" style="margin-left:15%; width:80%;">
         <p id="info1">과목번호</p>
         <p id="info2">주전공</p>
         <p id="info3">다전공</p>
@@ -87,7 +87,7 @@
         <p id="info12">비고</p>
     </div>
     <!-- overflow: auto -->
-    <div style="height: 650px; overflow: auto; width:85%" id="table"> 
+    <div style="height: 650px; overflow: auto; width:80%" id="table"> 
         <div id="greyBox" style="height: 80px; background: #e4e3e3">
           
           <p id="number">{{1234567890}}</p>

@@ -28,7 +28,7 @@
       </div>
     </div>
 
-    <div class="info" style="margin-left:15%; width:80%;">
+    <div class="info" style="margin-left:15%; width:80%; overflow:hidden;">
         <p id="info1">과목번호</p>
         <p id="info2">주전공</p>
         <p id="info3">다전공</p>
@@ -43,9 +43,9 @@
         <p id="info12">비고</p>
     </div>
     <!-- overflow: auto -->
-    <div style="height: 650px; overflow: auto; width:80%" id="table"> 
+    <div style="height: 550px; overflow: auto; width:80%" id="table"> 
 
-      <div id="greyBox" style="height: 80px; background: #e4e3e3">
+      <div id="greyBox" style="height: 80px; background: #e4e3e3; width:1800px;">
         
         <p id="number">{{1234567890}}</p>
         <p id="course_main">{아이콘}</p>
@@ -66,7 +66,7 @@
 
       </div>
 
-      <div id="whiteBox" style="height: 80px; background: #ffffff">
+      <div id="whiteBox" style="height: 80px; background: #ffffff; width:1800px;">
         <p id="number">2150054502</p>
         <p id="course_main">
           <span class="hoverImg" data-hover="{전기-AI융합}">
@@ -88,16 +88,16 @@
         <p id="etc"></p>
       </div>
       
-      <div style="height: 80px; background: #e4e3e3">data3</div>
-      <div style="height: 80px; background: #ffffff">data4</div>
-      <div style="height: 80px; background: #e4e3e3">data5</div>
-      <div style="height: 80px; background: #ffffff">data6</div>
-      <div style="height: 80px; background: #e4e3e3">data7</div>
-      <div style="height: 80px; background: #ffffff">data8</div>
-      <div style="height: 80px; background: #e4e3e3">data9</div>
-      <div style="height: 80px; background: #ffffff">data10</div>
-      <div style="height: 80px; background: #e4e3e3">data11</div>
-      <div style="height: 80px; background: #ffffff">data12</div>
+      <div style="height: 80px; background: #e4e3e3; width:1800px;">data3</div>
+      <div style="height: 80px; background: #ffffff; width:1800px;">data4</div>
+      <div style="height: 80px; background: #e4e3e3; width:1800px;">data5</div>
+      <div style="height: 80px; background: #ffffff; width:1800px;">data6</div>
+      <div style="height: 80px; background: #e4e3e3; width:1800px;">data7</div>
+      <div style="height: 80px; background: #ffffff; width:1800px;">data8</div>
+      <div style="height: 80px; background: #e4e3e3; width:1800px;">data9</div>
+      <div style="height: 80px; background: #ffffff; width:1800px;">data10</div>
+      <div style="height: 80px; background: #e4e3e3; width:1800px;">data11</div>
+      <div style="height: 80px; background: #ffffff; width:1800px;">data12</div>
     </div>
 
   </div>

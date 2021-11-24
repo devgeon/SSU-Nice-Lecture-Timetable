@@ -65,7 +65,62 @@ const routes = [
                         children: [
                             {
                                 path: "timetable",
-                                component: () => import("./views/usaint/ems/course/timetable")
+                                component: () => import("./views/usaint/ems/course/Timetable"),
+                                children: [
+                                    {
+                                        path:"hakbu",
+                                        name:'hakbu',
+                                        component: () => import("./views/usaint/ems/course/Hakbu"),
+
+                                    },
+                                    {
+                                        path: "kyopill",
+                                        name: "kyopill",
+                                        component: () => import("./views/usaint/ems/course/Kyopill"), 
+   
+                                    },
+                                    {
+                                        path: "kyosun",
+                                        name: "kyosun",
+                                        component: () => import("./views/usaint/ems/course/Kyosun"), 
+   
+                                    },
+                                    {
+                                        path: "yeonkye",
+                                        name: "yeonkye",
+                                        component: () => import("./views/usaint/ems/course/Yeonkye"), 
+   
+                                    },
+                                    {
+                                        path: "yoonghap",
+                                        name: "yoonghap",
+                                        component: () => import("./views/usaint/ems/course/Yoonghap"), 
+   
+                                    },
+                                    {
+                                        path: "daehakwon",
+                                        name: "daehakwon",
+                                        component: () => import("./views/usaint/ems/course/Daehakwon"), 
+   
+                                    },
+                                    {
+                                        path: "tajeongong",
+                                        name: "tajeongong",
+                                        component: () => import("./views/usaint/ems/course/Tajeongong"), 
+   
+                                    },
+                                    {
+                                        path: "searchsbj",
+                                        name: "searchsbj",
+                                        component: () => import("./views/usaint/ems/course/Searchsbj"), 
+   
+                                    },
+                                ]
+                                
+
+                                
+                            
+                                    
                             }
                             
                         ]

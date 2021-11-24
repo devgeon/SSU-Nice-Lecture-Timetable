@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="padding: 40px">
     <!-- <h1>학부탭</h1> -->
     <div class="filter">
       <button type="button">
@@ -39,8 +39,8 @@
 
     <div class="info" style="margin-left: 15%; width: 80%; overflow: hidden">
       <p id="info1">과목번호</p>
-      <p id="info2">주전공</p>
-      <p id="info3">다전공</p>
+      <p id="info2">이수구분</p>
+      <!-- <p id="info3">다전공</p> -->
       <p id="info4">과목명</p>
       <p id="info5">교수명</p>
       <p id="info6">강의시간</p>
@@ -59,8 +59,25 @@
         :key="course.idx"
       >
         <p id="number">{{ course.number }}</p>
-        <p id="course_main">{{ course.course_types }}</p>
-        <p id="course_sub"></p>
+        <p
+          id="course_main"
+          v-for="course_type of course.course_types"
+          :key="'ct' + course_type.idx"
+        >
+          <span class="hoverImg">
+            <img
+              style="width: 20px; height: 20px"
+              :src="
+                '/assets/images/timetable/' +
+                course_type.type[0] +
+                course_type.type[1] +
+                '.png'
+              "
+              alt=""
+            />
+          </span>
+        </p>
+        <!-- <p id="course_sub"></p> -->
         <p id="name">{{ course.subject_name }}</p>
         <p id="professor">{{ course.professors }}</p>
         <div

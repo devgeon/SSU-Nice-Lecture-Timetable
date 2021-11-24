@@ -66,7 +66,7 @@
         >
           <span class="hoverImg">
             <img
-              style="width: 20px; height: 20px"
+              id="iconMain"
               :src="
                 '/assets/images/timetable/' +
                 course_type.type[0] +

@@ -20,7 +20,16 @@ module.exports = {
     watchOptions: {
       poll: false,
       ignored: /node_modules/
-    }
+    },
+    proxy: {
+      '/backend':{
+        "target":'http://localhost:3000',
+        "pathRewrite":{'^/backend':''},
+        "changeOrigin":true,
+        "secure":false
+      }
+    },
+    // public: "mathpaul3.gq"
   },
 
   chainWebpack: config => {

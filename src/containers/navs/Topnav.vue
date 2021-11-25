@@ -7,7 +7,9 @@
         <span> <em>/</em> u-SAINT Portal </span>
       </h1>
       <div class="top_box">
-        <span class="top_user">엄호용님 접속을 환영합니다.</span>
+        <span class="top_user"
+          >{{ currentUser.name }}님 접속을 환영합니다.</span
+        >
         <ul class="top_link_box">
           <li>
             <a href="javascript:;" onclick="ep_openChangePwd();"
@@ -108,7 +110,9 @@
       </div>
       <div class="mob_user_wrap">
         <div class="mob_user_box01">
-          <span class="top_user">엄호용님 접속을 환영합니다.</span>
+          <span class="top_user"
+            >{{ currentUser.name }}님 접속을 환영합니다.</span
+          >
           <button
             type="button"
             class="btn_logout"
@@ -195,6 +199,7 @@
 export default {
   name: "Topnav",
   props: {
+    currentUser: Object,
     top_menu_list: Array,
     current_top_menu: Number,
     current_top_submenu: Number,

@@ -1,6 +1,7 @@
 <template>
   <div id="usaint-home" :class="[mob_menu_closed ? '' : 'mob_menu_on']">
     <topnav
+      :currentUser="currentUser"
       :top_menu_list="top_menu_list"
       :current_top_menu="current_top_menu"
       :current_top_submenu="current_top_submenu"
@@ -42,6 +43,9 @@ export default {
   components: {
     topnav: Topnav,
     sidenav: Sidenav,
+  },
+  props: {
+    currentUser: Object,
   },
   data() {
     return {

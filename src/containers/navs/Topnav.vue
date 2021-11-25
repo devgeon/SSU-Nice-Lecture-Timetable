@@ -196,10 +196,11 @@
 </template>
 
 <script>
+import { currentUser } from "../../constants/config";
+
 export default {
   name: "Topnav",
   props: {
-    currentUser: Object,
     top_menu_list: Array,
     current_top_menu: Number,
     current_top_submenu: Number,
@@ -222,6 +223,11 @@ export default {
     changeTopSubMenu() {
       this.$emit("chTSM");
     },
+  },
+  data() {
+    return {
+      currentUser: currentUser,
+    };
   },
 };
 </script>

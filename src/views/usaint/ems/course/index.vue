@@ -1,11 +1,3 @@
 <template>
-  <router-view :currentUser="currentUser" />
+  <router-view />
 </template>
-
-<script>
-export default {
-  props: {
-    currentUser: Object,
-  },
-};
-</script>

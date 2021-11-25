@@ -126,22 +126,20 @@
 
 <script>
 import axios from "axios";
+import { currentUser } from "../../../../constants/config";
 
 export default {
-  props: {
-    currentUser: Object,
-  },
   data() {
     return {
       courses: {},
     };
   },
-  beforeCreate() {
+  beforeMount() {
     axios({
       method: "get",
       url: "/backend/course/",
       params: {
-        department: this.currentUser.department,
+        department: currentUser.department,
       },
     }).then(
       (res) => {

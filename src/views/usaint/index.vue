@@ -1,5 +1,5 @@
 <template>
-  <usaint-layout :currentUser="currentUser">
+  <usaint-layout>
     <router-view />
   </usaint-layout>
 </template>
@@ -10,9 +10,6 @@ import usaintLayout from "../../layouts/usaintLayout.vue";
 export default {
   components: {
     "usaint-layout": usaintLayout,
-  },
-  props: {
-    currentUser: Object,
   },
 };
 </script>

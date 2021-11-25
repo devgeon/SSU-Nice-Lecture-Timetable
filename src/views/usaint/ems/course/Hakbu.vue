@@ -128,6 +128,9 @@
 import axios from "axios";
 
 export default {
+  props: {
+    currentUser: Object,
+  },
   data() {
     return {
       courses: {},
@@ -138,7 +141,7 @@ export default {
       method: "get",
       url: "/backend/course/",
       params: {
-        department: 8007,
+        department: this.currentUser.department,
       },
     }).then(
       (res) => {

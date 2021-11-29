@@ -21,15 +21,14 @@ module.exports = {
       poll: false,
       ignored: /node_modules/
     },
-    proxy: {
+	proxy: {
       '/backend':{
-        "target":'http://localhost:3000',
+        "target":'http://193.122.127.54:3000',
         "pathRewrite":{'^/backend':''},
         "changeOrigin":true,
         "secure":false
       }
     },
-    // public: "mathpaul3.gq"
   },
 
   chainWebpack: config => {
@@ -47,7 +46,6 @@ module.exports = {
     plugins: [
       new CopyPlugin([
           { from: "src/assets/images", to: "assets/images" },
-          { from: 'src/assets/fonts', to: 'assets/fonts' }
         ],
       ),
     ]

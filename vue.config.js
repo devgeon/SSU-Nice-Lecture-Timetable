@@ -11,7 +11,8 @@ module.exports = {
   },
   devServer: {
     clientLogLevel: "warning",
-    hot: true,
+    disableHostCheck: true,
+	hot: true,
     contentBase: "dist",
     compress: true,
     open: true,
@@ -24,7 +25,7 @@ module.exports = {
     },
 	proxy: {
       '/backend':{
-        "target":'http://localhost:3000',
+        "target":'193.122.127.54:3000',
         "pathRewrite":{'^/backend':''},
         "changeOrigin":true,
         "secure":false

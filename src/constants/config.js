@@ -6,8 +6,8 @@ export const localeOptions = [
   ]
 
 export const currentUser = {
-  id: 20211735,
-  grade: 1,
-  name: "엄호용",
-  department: 1001,
+  number: "",
+  grade: "",
+  name: "",
+  dept: "",
 }

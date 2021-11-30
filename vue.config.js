@@ -1,6 +1,7 @@
 const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
+  lintOnSave: false,
   pages: {
     index: {
       entry: "src/index.js",
@@ -23,7 +24,7 @@ module.exports = {
     },
 	proxy: {
       '/backend':{
-        "target":'http://193.122.127.54:3000',
+        "target":'http://localhost:3000',
         "pathRewrite":{'^/backend':''},
         "changeOrigin":true,
         "secure":false

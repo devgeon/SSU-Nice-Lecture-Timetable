@@ -126,7 +126,8 @@
 
 <script>
 import axios from "axios";
-import { currentUser } from "../../../../constants/config";
+import { getCurrentUser } from "../../../../utils";
+const currentUser = getCurrentUser();
 
 export default {
   data() {
@@ -139,7 +140,7 @@ export default {
       method: "get",
       url: "/backend/course/",
       params: {
-        department: currentUser.department,
+        dept: currentUser.dept,
       },
     }).then(
       (res) => {

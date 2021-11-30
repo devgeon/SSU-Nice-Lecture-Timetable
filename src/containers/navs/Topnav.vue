@@ -31,7 +31,7 @@
           <button type="button" class="btn01 col01" onclick="ep_changeLang();">
             English
           </button>
-          <button type="button" class="btn01 col02" onclick="ep_logout();">
+          <button type="button" class="btn01 col02" @click="logout">
             로그아웃
           </button>
         </div>
@@ -117,7 +117,7 @@
             type="button"
             class="btn_logout"
             title="로그아웃"
-            onclick="ep_logout();"
+            @click="logout"
           >
             로그아웃
           </button>
@@ -196,7 +196,8 @@
 </template>
 
 <script>
-import { currentUser } from "../../constants/config";
+import { getCurrentUser, setCurrentUser } from "../../utils";
+const currentUser = getCurrentUser();
 
 export default {
   name: "Topnav",
@@ -208,6 +209,10 @@ export default {
     mob_current_submenu: Number,
   },
   methods: {
+    logout() {
+      setCurrentUser();
+      this.$router.push("/user/login");
+    },
     closeMobMenu() {
       this.$emit("cMM");
     },

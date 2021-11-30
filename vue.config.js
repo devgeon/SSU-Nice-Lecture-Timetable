@@ -25,7 +25,7 @@ module.exports = {
     },
 	proxy: {
       '/backend':{
-        "target":'193.122.127.54:3000',
+        "target":'http://193.122.127.54:3000',
         "pathRewrite":{'^/backend':''},
         "changeOrigin":true,
         "secure":false

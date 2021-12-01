@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       axios_params: {
-        type: "hakbu",
+        page: "hakbu",
         dept: currentUser.dept,
       },
     }

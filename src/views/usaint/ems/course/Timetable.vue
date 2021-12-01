@@ -42,9 +42,7 @@
           <b-tab @click="$router.push({ name: 'kyosun' })" title="교양선택"
             ><p></p
           ></b-tab>
-          <b-tab @click="$router.push({ name: 'yeonkye' })" title="연계전공"
-            ><p></p
-          ></b-tab>
+      
           <b-tab @click="$router.push({ name: 'yoonghap' })" title="융합전공"
             ><p></p
           ></b-tab>

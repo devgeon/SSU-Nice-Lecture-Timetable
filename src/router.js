@@ -95,12 +95,7 @@ const routes = [
                                         component: () => import("./views/usaint/ems/course/Kyosun"), 
    
                                     },
-                                    {
-                                        path: "yeonkye",
-                                        name: "yeonkye",
-                                        component: () => import("./views/usaint/ems/course/Yeonkye"), 
-   
-                                    },
+                                    
                                     {
                                         path: "yoonghap",
                                         name: "yoonghap",

@@ -13,6 +13,10 @@ import VueI18n from 'vue-i18n'
 import kr from './locales/kr.json'
 
 import { getCurrentLanguage } from './utils'
+
+import CourseTable from './components/CourseTable.vue'
+Vue.component(CourseTable.name, CourseTable)
+
 Vue.use(BootstrapVue)//usebootstrap
 Vue.use(IconsPlugin)
 

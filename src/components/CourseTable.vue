@@ -16,7 +16,7 @@
             
             <slot></slot>
             
-            <!-- <div id="table">
+            <div id="table">
                 <div
                     class="info"
                     style="
@@ -97,10 +97,10 @@
                         <p id="etc">{비고}</p>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div> 
 
-        <table >
+        <!-- <table >
             <thead>
                 <tr class = "header" style="background: #e4e3e3; width:80%; position:sticky; top:0;">
                     <th>과목번호</th>
@@ -174,7 +174,7 @@
                 </div>
 
             </tbody>
-        </table>
+        </table> -->
     </div>
 </template>
 

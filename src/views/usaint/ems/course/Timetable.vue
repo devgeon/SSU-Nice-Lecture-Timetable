@@ -80,7 +80,7 @@
     <!-- <div class="table" style="float:left; width:80%; font-size:small;">
       <b-table striped hover :items="items" :fields="fields"></b-table>
     </div> -->
-
+    
     <router-view style="padding: 40px; z-index: 2" />
   </vuescroll>
 </template>

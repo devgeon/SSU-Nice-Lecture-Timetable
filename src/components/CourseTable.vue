@@ -117,12 +117,14 @@
                 </tr>
             </thead>
 
-            <tbody style="height: 550px; overflow: auto; width: 80%; display: block">
+            <tbody style="height: 550px; overflow: auto; width: 80%; display: block;">
+                
                 <div
                     :id="course.idx % 2 == 0 ? 'greyBox' : 'whiteBox'"
                     v-for="course of courses"
                     :key="course.idx"
                 >
+                
                     <tr>
                         <td rowspan="2" id="number">{{ course.number }}</td>
 
@@ -211,7 +213,7 @@
 #greyBox,
 #whiteBox {
   height: 80px;
-  width: 1800px;
+  width: 1700px;
 }
 
 #greyBox {

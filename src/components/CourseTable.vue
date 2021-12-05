@@ -56,7 +56,7 @@
                             v-for="course_type of course.course_types"
                             :key="'ct' + course_type.idx"
                         >
-                            <span class="hoverImg">
+                            <span class="hoverImg" :data-hover="course.department_name">
                                 <img
                                     id="iconMain"
                                     :src="

@@ -1,11 +1,12 @@
 @charset "utf-8";
 
-.dm-menu {background: white; padding: 0 1rem; line-height: 3rem; white-space: nowrap}
+.dm-menu {background: white; padding: 0 1rem; line-height: 3rem; white-space: nowrap;}
 .dm-menu__list {overflow: hidden;}
 .dm-menu__list .dm-menu__list {margin-left: 1.5rem; margin-right: 1.5rem;}
 .dm-menu__list .dm-menu__list {max-height: 0; transition: max-height .3s linear;}
 .dm-menu__item {font-weight:bold; cursor:pointer; border-bottom: 1px solid lightgray;}
-.dm-menu__list .dm-menu__list .dm-menu__item {border: none; font-weight:normal;}
+.dm-menu__list .dm-menu__list .dm-menu__item {border: none; font-weight:normal; margin-left: 10px;}
+.dm-menu__list .dm-menu__list .dm-menu__item .dm-menu__list .dm-menu__item{border-left: 3px solid lightgray;}
 .dm-menu__item:focus {outline: none;}
 .dm-menu__item:focus-within > UL {max-height: 999px; transition: max-height 1.7s linear;}
 .dm-menu__item--hasMore:before {content: '\276F'; transform: rotate(90deg); margin-right: .5rem; float: right; font-weight:bold;}
@@ -57,7 +58,7 @@
 #etc{position:absolute; left:1200px; bottom: 33px;}
 .table{float: left;}
 
-.leftNav{width: 15%; height: 580px; float: left; background-color: #e4e3e3;}
+.leftNav{width: 28%; height: 580px; float: left; background-color: #e4e3e3; position: sticky; top: 0}
 
 
 

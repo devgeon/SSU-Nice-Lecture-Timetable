@@ -152,7 +152,7 @@
                 <a class="dm-menu__itemLink">경제학과</a>
               </li> 
               <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">글로벌통상확과</a>
+                <a class="dm-menu__itemLink">글로벌통상학과</a>
               </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">금융경제학과</a>

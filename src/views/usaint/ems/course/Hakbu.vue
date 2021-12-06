@@ -1,6 +1,6 @@
 <template>
   <CourseTable v-bind:axios_params="axios_params">
-    <div class="leftNav" style="width: 150px; position: sticky; top: 0">
+    <div class="leftNav" >
       <!-- <div class="drop1">
         <b-dropdown
           text="대분류"
@@ -88,7 +88,7 @@
             <ul class="dm-menu__list">
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">수학과</a>
-              </li> 
+              </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">물리학과</a>
               </li>
@@ -164,7 +164,24 @@
           </li>
           <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
             <a class="dm-menu__itemLink">경영대학</a>
-            <ul class="dm-menu__list">
+              <ul class="dm-menu__list">
+                <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
+                  <a class="dm-menu__itemLink">계약학과</a>
+                  <ul class="dm-menu__list">
+                    <li class="dm-menu__item" tabindex="0">
+                      <a class="dm-menu__itemLink">혁신경영학과</a>
+                    </li>
+                    <li class="dm-menu__item" tabindex="0">
+                      <a class="dm-menu__itemLink">벤처경영학과</a>
+                    </li>
+                    <li class="dm-menu__item" tabindex="0">
+                      <a class="dm-menu__itemLink">스토리텔링경영학과</a>
+                    </li>
+                    <li class="dm-menu__item" tabindex="0">
+                      <a class="dm-menu__itemLink">복지경영학과</a>
+                    </li>
+                  </ul>
+                </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">경영학부</a>
               </li> 
@@ -176,23 +193,6 @@
               </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">금융학부</a>
-              </li>
-              <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
-                <a class="dm-menu__itemLink">계약학과</a>
-                <ul class="dm-menu__list">
-                  <li class="dm-menu__item" tabindex="0">
-                    <a class="dm-menu__itemLink">혁신경영학과</a>
-                  </li>
-                  <li class="dm-menu__item" tabindex="0">
-                    <a class="dm-menu__itemLink">벤처경영학과</a>
-                  </li>
-                  <li class="dm-menu__item" tabindex="0">
-                    <a class="dm-menu__itemLink">스토리텔링경영학과</a>
-                  </li>
-                  <li class="dm-menu__item" tabindex="0">
-                    <a class="dm-menu__itemLink">복지경영학과</a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </li>

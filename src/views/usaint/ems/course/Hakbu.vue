@@ -1,6 +1,6 @@
 <template>
   <CourseTable v-bind:axios_params="axios_params">
-    <div class="leftNav" >
+    <div class="leftNav">
       <!-- <div class="drop1">
         <b-dropdown
           text="대분류"
@@ -81,7 +81,7 @@
               </li>
             </ul>
           </li>
-          </ul>
+        </ul>
           <ul class="dm-menu__list">
           <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
             <a class="dm-menu__itemLink">자연과학대학</a>

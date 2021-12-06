@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.dm-menu {background: white; padding: 0 1rem; line-height: 3rem;}
+.dm-menu {background: white; padding: 0 1rem; line-height: 3rem; white-space: nowrap}
 .dm-menu__list {overflow: hidden;}
 .dm-menu__list .dm-menu__list {margin-left: 1.5rem; margin-right: 1.5rem;}
 .dm-menu__list .dm-menu__list {max-height: 0; transition: max-height .3s linear;}
@@ -11,7 +11,8 @@
 .dm-menu__item--hasMore:before {content: '\276F'; transform: rotate(90deg); margin-right: .5rem; float: right; font-weight:bold;}
 .dm-menu__item--hasMore:focus-within:before {transform: rotate(-90deg);}
 .dm-menu__itemLink {padding-left: .5rem}
-.dm-menu__itemLink:hover {color: red;}
+.dm-menu__itemLink:hover {color: gray;}
+
 
 .info{height: 30px; width: 1800px; background-color:#e4e3e3; position:relative; border-style: none none solid none; border-width: 1px; border-color: #7e7e7e; }
 #info1,#info2,#info3,#info4,#info5,#info6,#info7,#info8,#info9,#info10,#info11,#info12{float: left; position:absolute; bottom:7px;}

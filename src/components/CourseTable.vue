@@ -42,7 +42,7 @@
                 </div>
                
                 <div
-                    style="height: 550px; overflow: auto; width: 80%; display: block"
+                    style="height: 650px; overflow: auto; width: 80%; display: block"
                     id="table"
                 >
                     <div
@@ -93,8 +93,8 @@
                         </p>
                         <p id="seats">{{ 0 }}</p>
                         <p id="certification">{{ course.certifications }}</p>
-                        <p id="subject_area">{교과영역}</p>
-                        <p id="etc">{비고}</p>
+                        <p id="subject_area"></p>
+                        <p id="etc"></p>
                     </div>
                 </div>
             </div>

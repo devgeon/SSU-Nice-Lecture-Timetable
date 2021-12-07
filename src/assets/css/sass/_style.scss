@@ -8,8 +8,10 @@
 .dm-menu__list .dm-menu__list .dm-menu__item {border: none; font-weight:normal;}
 .dm-menu__item:focus {outline: none;}
 .dm-menu__item:focus-within > UL {max-height: 999px; transition: max-height 1.7s linear;}
-.dm-menu__item--hasMore:before {content: '\276F'; transform: rotate(90deg); margin-right: .5rem; float: right; font-weight:bold;}
-.dm-menu__item--hasMore:focus-within:before {transform: rotate(-90deg);}
+.dm-menu__item--hasMore::before {content: '\276F'; transform: rotate(90deg); margin-right: .5rem; float: right; font-weight:bold;}
+// .dm-menu__item--hasMore:focus-within:before { !important; content: '\276F'; transform: rotate(-90deg);}
+.dm-menu__item--hasMore.active::before {content: '\276F'; transform: rotate(-90deg); margin-right: .5rem; float: right; font-weight:bold;}
+// .dm-menu__item--hasMore:active:focus-within::before {content: '\276F'; transform: rotate(-90deg); margin-right: .5rem; float: right; font-weight:bold;}
 .dm-menu__itemLink {padding-left: .5rem}
 .dm-menu__itemLink:hover {color: gray;}
 

@@ -1,6 +1,6 @@
 <template>
   <CourseTable v-bind:axios_params="axios_params">
-    <div class="leftNav" style="width: 150px; position: sticky; top: 0">
+    <div class="leftNav">
       <nav class="dm-menu">
         <ul class="dm-menu__list">
           <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">

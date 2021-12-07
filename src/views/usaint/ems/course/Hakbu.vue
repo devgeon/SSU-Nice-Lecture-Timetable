@@ -178,7 +178,7 @@
                 <a class="dm-menu__itemLink">경제학과</a>
               </li>
               <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">글로벌통상확과</a>
+                <a class="dm-menu__itemLink">글로벌통상학과</a>
               </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">금융경제학과</a>
@@ -191,18 +191,6 @@
           <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
             <a class="dm-menu__itemLink">경영대학</a>
             <ul class="dm-menu__list">
-              <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">경영학부</a>
-              </li>
-              <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">회계학과</a>
-              </li>
-              <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">벤처중소기업학과</a>
-              </li>
-              <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">금융학부</a>
-              </li>
               <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
                 <a class="dm-menu__itemLink">계약학과</a>
                 <ul class="dm-menu__list">
@@ -219,6 +207,18 @@
                     <a class="dm-menu__itemLink">복지경영학과</a>
                   </li>
                 </ul>
+              </li>
+              <li class="dm-menu__item" tabindex="0">
+                <a class="dm-menu__itemLink">경영학부</a>
+              </li>
+              <li class="dm-menu__item" tabindex="0">
+                <a class="dm-menu__itemLink">회계학과</a>
+              </li>
+              <li class="dm-menu__item" tabindex="0">
+                <a class="dm-menu__itemLink">벤처중소기업학과</a>
+              </li>
+              <li class="dm-menu__item" tabindex="0">
+                <a class="dm-menu__itemLink">금융학부</a>
               </li>
             </ul>
           </li>

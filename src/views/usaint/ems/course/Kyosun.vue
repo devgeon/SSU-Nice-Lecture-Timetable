@@ -184,6 +184,11 @@
                   <li class="dm-menu__item" tabindex="0">
                     <a class="dm-menu__itemLink">문화및문명</a>
                   </li>
+                </ul>
+              </li>
+              <li class="dm-menu__item dm-menu__item--hasMore" tabindex="0">
+                <a class="dm-menu__itemLink">균형교양/자연과학</a>
+                <ul class="dm-menu__list">
                   <li class="dm-menu__item" tabindex="0">
                     <a class="dm-menu__itemLink">자연과학</a>
                   </li>
@@ -239,7 +244,7 @@
                 <a class="dm-menu__itemLink">정치와경제(융합-사회)</a>
               </li>
               <li class="dm-menu__item" tabindex="0">
-                <a class="dm-menu__itemLink">자연과학과수리(융합-자연))</a>
+                <a class="dm-menu__itemLink">자연과학과수리(융합-자연)</a>
               </li>
               <li class="dm-menu__item" tabindex="0">
                 <a class="dm-menu__itemLink">정보와기술(융합-자연)</a>
